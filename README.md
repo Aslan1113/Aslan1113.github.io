@@ -41,6 +41,8 @@
 
 ## 界面预览
 
+> 下面是手机端 / 电脑端的实际界面截图，点开图片可看大图。
+
 ## 截图
 
 ### 手机端
@@ -73,6 +75,20 @@
 
 - 🌐 原始站点：<https://zy5w0w3lmnir.meoo.zone/>
 - 🚀 GitHub Pages：<https://Aslan1113.github.io/>
+
+## 登录与云同步（部署者必读）
+
+不登录也能刷题，数据存在浏览器本地。**登录后**，进度 / 错题 / 收藏会同步到云端，可跨设备继续。
+
+> ⚠️ 本站原来的后端 Supabase 挂在 Meoo 域名下，而 Meoo 网关做了来源白名单（只认 `https://zy5w0w3lmnir.meoo.zone`），
+> 直接换域名后登录会报 CORS / 403。
+>
+> 解决办法：加一个**极小的转发代理**（`proxy-worker.js`，已部署为 Cloudflare Pages Function
+> `https://xingce-supabase-proxy.pages.dev`），把请求转发给 Supabase 并把 `Origin` 伪装成白名单域名。
+> 站点里写死的 Supabase 地址已替换为该代理地址，登录 / 注册 / 云同步即可正常工作。
+>
+> 代理源码见 [proxy-worker.js](proxy-worker.js)，重新部署方式见文件顶部注释。
+
 
 ## 技术栈
 
