@@ -51,7 +51,7 @@
 ## 在线体验
 
 - 🌐 原始站点：<https://zy5w0w3lmnir.meoo.zone/>
-- 🚀 GitHub Pages：<https://YOURNAME.github.io/>
+- 🚀 GitHub Pages：<https://Aslan1113.github.io/>
 
 ## 技术栈
 
@@ -67,10 +67,10 @@
 
 本仓库是**已构建好的静态产物**，直接把文件发布到 GitHub Pages 即可：
 
-1. 仓库命名为 `YOURNAME.github.io`（站点会发布在根目录，资源绝对路径才能正常工作）
+1. 仓库命名为 `Aslan1113.github.io`（站点会发布在根目录，资源绝对路径才能正常工作）
 2. 打开 **Settings → Pages → Build and deployment → Source** 选 **Deploy from a branch**
 3. Branch 选 `main`、目录选 `/ (root)`，保存
-4. 等 1～2 分钟，访问 `https://YOURNAME.github.io/`
+4. 等 1～2 分钟，访问 `https://Aslan1113.github.io/`
 
 仓库中的 `404.html` 用于让 `/practice/language`、`/login` 等深层链接在刷新时也能正常打开。
 
