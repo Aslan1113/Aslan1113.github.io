@@ -1,0 +1,84 @@
+# 行测刷题通
+
+> 秋招 / 校招在线测评**行测真题**刷题工具：分类刷题、逐题解析、错题本、学习统计一应俱全，手机电脑都能用。
+
+<p>
+  <img alt="React" src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white">
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-built-646cff?logo=vite&logoColor=white">
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-backend-3ecf8e?logo=supabase&logoColor=white">
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/Deploy-GitHub%20Pages-222">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
+</p>
+
+## 这是什么
+
+一个面向**秋招笔试 / 在线测评**的刷题网站。收录网络公开的行测真题，覆盖言语理解与表达、数量关系、判断推理、类比推理、资料分析、常识判断、图形推理等题型，每题附参考答案、逐项解析与题源标注。
+
+完全免费，**不注册也能刷题**；登录后做题进度、错题、收藏会同步到云端，可跨设备继续。
+
+## 功能特性
+
+- 📚 **真题题库**：按题型分类，支持专项练习
+- ✅ **逐题解析**：每题附答案 + 选项级 AI 解析 + 题源
+- ⏱ **限时作答**：模拟真实测评节奏，即时判题、正确率统计
+- 📕 **错题本**：错题自动归档，支持重做消灭错题
+- ⭐ **收藏夹**：好题收藏，随时回顾
+- 📈 **学习统计**：学习时长自动统计（区分新题 / 错题）、日历热力图
+- 🧩 **自定义题库**：支持从截图 / Word / PDF 导入自己的题
+- 🎨 **个性化**：主题（浅色 / 深色）、字号、每轮做题数、语言设置
+- 📱 **自适应**：手机、平板、电脑均可流畅使用
+
+## 截图
+
+### 手机端
+
+<p>
+  <img src="docs/screenshots/mobile-01.jpg" width="200">
+  <img src="docs/screenshots/mobile-02.jpg" width="200">
+  <img src="docs/screenshots/mobile-03.jpg" width="200">
+  <img src="docs/screenshots/mobile-04.jpg" width="200">
+</p>
+
+### 电脑端
+
+<p>
+  <img src="docs/screenshots/desktop-01.png" width="420">
+  <img src="docs/screenshots/desktop-02.png" width="420">
+</p>
+
+> 更多截图见 [docs/screenshots](docs/screenshots)。
+
+## 在线体验
+
+- 🌐 原始站点：<https://zy5w0w3lmnir.meoo.zone/>
+- 🚀 GitHub Pages：<https://YOURNAME.github.io/>
+
+## 技术栈
+
+- 前端：React + Vite 构建的单页应用（SPA）
+- 后端：Supabase（登录 / 云端同步）
+- 托管：GitHub Pages（纯静态，无需服务器）
+
+## 更新日志
+
+见 [CHANGELOG.md](CHANGELOG.md)。
+
+## 部署说明
+
+本仓库是**已构建好的静态产物**，直接把文件发布到 GitHub Pages 即可：
+
+1. 仓库命名为 `YOURNAME.github.io`（站点会发布在根目录，资源绝对路径才能正常工作）
+2. 打开 **Settings → Pages → Build and deployment → Source** 选 **Deploy from a branch**
+3. Branch 选 `main`、目录选 `/ (root)`，保存
+4. 等 1～2 分钟，访问 `https://YOURNAME.github.io/`
+
+仓库中的 `404.html` 用于让 `/practice/language`、`/login` 等深层链接在刷新时也能正常打开。
+
+## 说明与免责
+
+- 题库来自网络**公开**的行测真题 / 回忆版，仅供学习交流，如涉版权请联系。
+- 后端使用 Supabase 服务，登录与云同步依赖于网络。
+
+## License
+
+[MIT](LICENSE)

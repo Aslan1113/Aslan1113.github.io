@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="msvalidate.01" content="D56462AE80B5B87D49E6B9853FD549CF" >
+    <meta name="baidu-site-verification" content="codeva-R9RkC5d6Xz" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" >
+    <meta name="applicable-device" content="pc,mobile" >
+
+    
+    <title>行测刷题通 | 秋招在线测评行测真题刷题工具（附解析）</title>
+    <meta name="description" content="秋招笔试行测在线刷题工具：收录网络公开行测真题，覆盖言语理解、判断推理、数量关系、资料分析、常识判断，每题附答案解析与题源，支持限时作答、即时判题、错题本，登录后进度云端同步。" >
+    <meta name="keywords" content="行测刷题,秋招笔试,在线刷题,行测题库,行测真题,言语理解,判断推理,资料分析,数量关系,常识判断,秋招在线测评,行测真题解析" >
+    <meta name="robots" content="index,follow" >
+    <link rel="sitemap" type="application/xml" href="/sitemaps.xml" >
+    <link rel="canonical" href="https://zy5w0w3lmnir.meoo.zone/" >
+
+    <meta property="og:type" content="website" >
+    <meta property="og:site_name" content="行测刷题通" >
+    <meta property="og:title" content="行测刷题通 | 秋招在线测评行测真题刷题工具" >
+    <meta property="og:description" content="行测真题在线刷，逐题解析、错题自动归档、进度云端同步，备考秋招笔试必备。" >
+    <meta property="og:url" content="https://zy5w0w3lmnir.meoo.zone/" >
+    <meta property="og:image" content="https://zy5w0w3lmnir.meoo.zone/favicon.ico" >
+    <meta name="twitter:card" content="summary" >
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "行测刷题通",
+      "alternateName": "秋招在线测评刷题工具",
+      "url": "https://zy5w0w3lmnir.meoo.zone/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "zh-CN",
+      "description": "秋招笔试行测真题在线刷题工具，含答案解析、错题本与云端同步。",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "这个行测刷题工具收费吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "免费使用，不用登录就能刷题看解析；登录只用于把进度和收藏同步到云端。" }
+        },
+        {
+          "@type": "Question",
+          "name": "需要注册账号才能用吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "不需要。游客可以直接刷题，做过的题和收藏保存在浏览器本地；注册登录后进度可跨设备云端同步。" }
+        },
+        {
+          "@type": "Question",
+          "name": "题库包含哪些题型？",
+          "acceptedAnswer": { "@type": "Answer", "text": "覆盖言语理解与表达、数量关系、判断推理、类比推理、资料分析、常识判断、图形推理七类，共 500 多道带解析的行测真题。" }
+        },
+        {
+          "@type": "Question",
+          "name": "每道题都有答案解析吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "每道题都附参考答案、逐项解析和题源说明，错题会自动归档到错题本方便重做。" }
+        }
+      ]
+    }
+    </script>
+    
+
+    <style>
+      /* 首屏防闪：主题底色与深色滚动条在 React 加载前立即生效 */
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+      html {
+        color-scheme: light;
+      }
+      html.dark {
+        color-scheme: dark;
+      }
+      html.light, html.light body {
+        background-color: #f5f2e9;
+        color: #2b2620;
+      }
+      html.dark, html.dark body {
+        background-color: #1a1712;
+        color: #eae6dc;
+      }
+
+      /* 给不执行 JS 的爬虫（百度）看的第一屏文字 */
+      #seo-content {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+          'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        line-height: 1.75;
+        font-size: 15px;
+      }
+      #seo-content h1 { font-size: 26px; line-height: 1.4; margin: 0 0 16px; }
+      #seo-content h2 { font-size: 18px; margin: 28px 0 12px; }
+      #seo-content p { margin: 0 0 14px; }
+      #seo-content ul { padding-left: 20px; margin: 0 0 14px; }
+      #seo-content li { margin-bottom: 6px; }
+      #seo-content a { color: #8a6d3b; }
+    </style>
+    <script>
+      // 在 React 加载前套用用户上次保存的外观设置，避免主题 / 字号闪烁
+      (function () {
+        var KEY = 'xingce.settings';
+        var FALLBACK = { theme: 'light', fontSize: 'standard', language: 'zh-Hans' };
+        var SCALE = { standard: 1, large: 1.15, xlarge: 1.3 };
+        var saved = null;
+        var settings = FALLBACK;
+
+        try {
+          var raw = window.localStorage.getItem(KEY);
+          if (raw) {
+            saved = JSON.parse(raw);
+            if (saved && typeof saved === 'object') {
+              settings = {
+                theme: saved.theme === 'dark' ? 'dark' : 'light',
+                fontSize: SCALE[saved.fontSize] ? saved.fontSize : 'standard',
+                language:
+                  saved.language === 'en' || saved.language === 'zh-Hant'
+                    ? saved.language
+                    : 'zh-Hans',
+              };
+            }
+          }
+        } catch (e) {
+          /* 隐私模式或脏数据：直接用兜底值 */
+        }
+
+        function apply(theme) {
+          var root = document.documentElement;
+          theme = theme === 'dark' ? 'dark' : 'light';
+          root.classList.remove('light', 'dark');
+          root.classList.add(theme);
+          root.setAttribute('data-theme', theme);
+        }
+
+        apply(settings.theme);
+        document.documentElement.setAttribute('data-font', settings.fontSize);
+        document.documentElement.style.setProperty(
+          '--font-scale',
+          String(SCALE[settings.fontSize] || 1),
+        );
+        document.documentElement.setAttribute('lang', settings.language);
+
+        // 预览容器（iframe）可能由父页推送主题；用户已保存过设置时以用户设置为准
+        if (window.self !== window.top && !saved) {
+          window.addEventListener('message', function (event) {
+            var data = event.data;
+            if (data && (data.theme === 'light' || data.theme === 'dark')) {
+              apply(data.theme);
+            }
+          });
+        }
+
+        // React 一渲染出内容，就把给爬虫看的静态文案收起来，避免和真实界面重叠
+        document.addEventListener('DOMContentLoaded', function () {
+          var seo = document.getElementById('seo-content');
+          var root = document.getElementById('root');
+          if (!seo || !root) return;
+          var check = function () {
+            if (root.childElementCount > 0) {
+              seo.style.display = 'none';
+              observer.disconnect();
+            }
+          };
+          var observer = new MutationObserver(check);
+          observer.observe(root, { childList: true, subtree: true });
+          check();
+          // 兜底：万一界面是慢慢渲染出来的，2 秒后再检查一次
+          setTimeout(check, 2000);
+        });
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-B-A292Km.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BGUTOH2x.css">
+  <link rel="icon" href="/favicon.ico?v=0"></head>
+
+  <body>
+    <div id="root"></div>
+
+    
+    <div id="seo-content">
+      <h1>行测刷题通 —— 秋招在线测评行测真题在线刷题工具</h1>
+      <p>
+        收录网络公开行测真题，覆盖言语理解与表达、数量关系、判断推理、资料分析、常识判断五大题型，
+        每题附参考答案、详细解析与题源说明，适合准备秋招、春招、实习笔试的同学短期集中刷题。
+      </p>
+      <p>
+        支持按题型分类专项练习、限时作答、即时判题、正确率统计、错题自动归档与收藏重做；
+        登录后做题进度与外观设置可跨设备云端同步，手机、平板、电脑都能用。
+      </p>
+      <h2>主要功能</h2>
+      <ul>
+        <li>行测真题题库，按题型分类专项刷题</li>
+        <li>每题逐项解析，附题源标注</li>
+        <li>限时模拟作答、即时判题、正确率统计</li>
+        <li>错题本自动归档，支持重做消灭错题</li>
+        <li>收藏夹、外观与字号设置、账号云同步</li>
+      </ul>
+      <h2>按题型练习</h2>
+      <ul>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/language">言语理解与表达专项练习</a>（42 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/quant">数量关系专项练习</a>（180 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/logic">判断推理专项练习</a>（95 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/analogy">类比推理专项练习</a>（40 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/data">资料分析专项练习</a>（85 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/common">常识判断专项练习</a>（50 题）</li>
+        <li><a href="https://zy5w0w3lmnir.meoo.zone/practice/figure">图形推理专项练习</a>（25 题）</li>
+      </ul>
+      <h2>常见问题</h2>
+      <h3>这个工具收费吗？需要注册吗？</h3>
+      <p>完全免费，不注册也能直接刷题、看解析；登录只是用来把做题进度和收藏同步到云端，方便换设备继续。</p>
+      <h3>题库有多少题？覆盖哪些题型？</h3>
+      <p>目前收录 500 多道网络公开行测真题，覆盖言语理解与表达、数量关系、判断推理、类比推理、资料分析、常识判断、图形推理七类，每题附答案、解析与题源。</p>
+      <h3>错题和收藏会丢吗？</h3>
+      <p>游客态的做题记录与收藏保存在浏览器本地，清理浏览器数据会丢失；登录后自动同步到云端，长期保存、跨设备可用。</p>
+      <h3>手机上能用吗？</h3>
+      <p>可以，页面自适应手机、平板和电脑，随时随地点开就能练。</p>
+      <p>
+        <a href="https://zy5w0w3lmnir.meoo.zone/practice/language">开始刷题</a> ·
+        <a href="https://zy5w0w3lmnir.meoo.zone/sources">题源说明</a> ·
+        <a href="https://zy5w0w3lmnir.meoo.zone/login">登录 / 注册</a>
+      </p>
+    </div>
+
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?1a1ce10a3e81bd5424cb8cbe919939a1";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  <script id="meoo-baxia-web-security" async src="https://g.alicdn.com/sd/baxia/2.5.35/baxiaCommon.js"></script>
+      <div id="meoo-brand-watermark" style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999999;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 12px;
+        color: #666;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 6px 8px 6px 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      " onclick="window.open('https://meoo.com', '_blank')"
+         onmouseover="this.style.transform='scale(1.02)'; this.style.background='rgba(255, 255, 255, 0.98)'; this.style.boxShadow='0 4px 16px rgba(0, 0, 0, 0.15)';"
+         onmouseout="this.style.transform='scale(1)'; this.style.background='rgba(255, 255, 255, 0.95)'; this.style.boxShadow='0 2px 12px rgba(0, 0, 0, 0.1)';">
+        <img src="https://assets.cdn.meoo.host/public/meoo-logo.png" alt="Meoo" style="width: 16px; height: 16px; border-radius: 3px;">
+        <span style="white-space: nowrap;">By <span style="font-weight: 600; color: #007bff;">Meoo 秒悟</span></span>
+        <button onclick="event.stopPropagation(); document.getElementById('meoo-brand-watermark').remove();" style="
+          background: none;
+          border: none;
+          color: #bbb;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold;
+          margin-left: 2px;
+          padding: 0;
+          width: 14px;
+          height: 14px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: color 0.2s ease;
+          line-height: 1;
+        " onmouseover="this.style.color='#666';" onmouseout="this.style.color='#bbb';">×</button>
+      </div>
+    </body>
+</html>
