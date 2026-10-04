@@ -16,7 +16,11 @@ export default {
     const url = new URL(request.url);
     const isWS = (request.headers.get('upgrade') || '').toLowerCase() === 'websocket';
 
-    const target = new URL(url.pathname + url.search, TARGET);
+    // Meoo 网关对 /auth/v1/signup（无斜杠）有拦截，返回 400 空响应；补一个斜杠即可正常走到 GoTrue
+    let pathname = url.pathname;
+    if (pathname === '/auth/v1/signup') pathname = '/auth/v1/signup/';
+
+    const target = new URL(pathname + url.search, TARGET);
     if (isWS) target.protocol = 'wss:';
 
     const origin = request.headers.get('origin') || '*';
