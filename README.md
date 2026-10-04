@@ -1,127 +1,163 @@
-# 行测刷题通
+# 行测刷题通 · 秋招行测在线刷题工具
 
-> 秋招 / 校招在线测评**行测真题**刷题工具：分类刷题、逐题解析、错题本、学习统计一应俱全，手机电脑都能用。
+> 免费在线的**行测真题**刷题网站：分类刷题 · 逐题解析 · 错题本 · 收藏夹 · 学习统计 · 自定义题库。
+> 手机、平板、电脑都能用，**不注册也能刷**。
 
 <p>
+  <a href="https://aslan1113.github.io/"><img alt="在线体验" src="https://img.shields.io/badge/%F0%9F%91%89%20%E5%9C%A8%E7%BA%BF%E4%BD%93%E9%AA%8C-aslan1113.github.io-2ea44f?style=for-the-badge"></a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
   <img alt="React" src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white">
   <img alt="Vite" src="https://img.shields.io/badge/Vite-built-646cff?logo=vite&logoColor=white">
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-backend-3ecf8e?logo=supabase&logoColor=white">
   <img alt="GitHub Pages" src="https://img.shields.io/badge/Deploy-GitHub%20Pages-222">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
+  <img alt="Stars" src="https://img.shields.io/github/stars/Aslan1113/Aslan1113.github.io?style=social">
 </p>
 
-## 这是什么
+## 🚀 立即体验
 
-一个面向**秋招笔试 / 在线测评**的刷题网站。收录网络公开的行测真题，覆盖言语理解与表达、数量关系、判断推理、类比推理、资料分析、常识判断、图形推理等题型，每题附参考答案、逐项解析与题源标注。
+### 👉 <https://aslan1113.github.io/>
 
-完全免费，**不注册也能刷题**；登录后做题进度、错题、收藏会同步到云端，可跨设备继续。
+打开就能刷，**不用注册、不用下载 App**。建议在手机上「添加到主屏幕」，用起来和 App 一样。
 
-## 功能特性
+| 项目 | 说明 |
+|---|---|
+| 🎯 **适合谁** | 秋招 / 校招笔试、在线测评、公考行测备考的同学 |
+| 📚 **刷什么** | 言语理解与表达、数量关系、判断推理、类比推理、资料分析、常识判断、图形推理 |
+| 💰 **收费吗** | 完全免费，题库内置，不登录也能刷 |
+| 📱 **在哪用** | 手机、平板、电脑浏览器均可 |
 
-- 📚 **真题题库**：按题型分类，支持专项练习
-- ✅ **逐题解析**：每题附答案 + 选项级 AI 解析 + 题源
-- ⏱ **限时作答**：模拟真实测评节奏，即时判题、正确率统计
-- 📕 **错题本**：错题自动归档，支持重做消灭错题
-- ⭐ **收藏夹**：好题收藏，随时回顾
-- 📈 **学习统计**：学习时长自动统计（区分新题 / 错题）、日历热力图
-- 🧩 **自定义题库**：支持从截图 / Word / PDF 导入自己的题
-- 🎨 **个性化**：主题（浅色 / 深色）、字号、每轮做题数、语言设置
-- 📱 **自适应**：手机、平板、电脑均可流畅使用
-
-## 怎么用（30 秒上手）
-
-1. 打开 👉 **https://aslan1113.github.io/**
-2. 首页选一个题型（比如「言语理解与表达」「数量关系」），点进去就能开始刷
-3. 选答案 → 立刻出对错 → 点「查看解析」看逐项解答
-4. 做错的题会自动进「错题本」，之后可以专门重做、逐个消灭
-5. 想换主题 / 改字号 / 调每轮题量，进「设置」页
-6. 手机、平板、电脑都能用，进度按浏览器本地保存
-
-> 不需要注册就能刷。注册登录后，进度 / 收藏 / 错题会同步到云端，换设备也能接着做。
-
-## 界面预览
-
-> 下面是手机端 / 电脑端的实际界面截图，点开图片可看大图。
-
-## 截图
-
-### 手机端
+## 📸 界面预览
 
 <p>
-  <img src="docs/screenshots/mobile-01.jpg" width="200">
-  <img src="docs/screenshots/mobile-02.jpg" width="200">
-  <img src="docs/screenshots/mobile-03.jpg" width="200">
-  <img src="docs/screenshots/mobile-04.jpg" width="200">
+  <img src="docs/screenshots/live-home-desktop.png" width="440" alt="电脑端首页">
+  <img src="docs/screenshots/live-home-mobile.png" width="130" alt="手机端首页">
 </p>
 
-### 电脑端
-
 <p>
-  <img src="docs/screenshots/desktop-01.png" width="420">
-  <img src="docs/screenshots/desktop-02.png" width="420">
-</p>
-
-### 线上实拍（GitHub Pages）
-
-<p>
-  <img src="docs/screenshots/live-home-desktop.png" width="420">
-  <img src="docs/screenshots/live-home-mobile.png" width="150">
-  <img src="docs/screenshots/live-login.png" width="150">
+  <img src="docs/screenshots/mobile-01.jpg" width="150" alt="手机端刷题">
+  <img src="docs/screenshots/mobile-04.jpg" width="150" alt="手机端解析">
+  <img src="docs/screenshots/desktop-02.png" width="440" alt="电脑端刷题">
 </p>
 
 > 更多截图见 [docs/screenshots](docs/screenshots)。
 
-## 在线体验
+## ✨ 功能特性
 
-- 🌐 原始站点：<https://zy5w0w3lmnir.meoo.zone/>
-- 🚀 GitHub Pages：<https://Aslan1113.github.io/>
+- 📚 **真题题库**：按题型分类，支持专项练习
+- ✅ **逐题解析**：参考答案 + 逐个选项讲解 + 题源标注
+- 🤖 **AI 答疑**：不懂就问，AI 老师顺着题目讲（可在设置里开关）
+- ⏱ **限时作答**：模拟真实测评节奏，即时判题、自动统计正确率
+- 📕 **错题本**：错题自动归档，支持重做、逐个消灭
+- ⭐ **收藏夹**：好题收藏，随时回看与重做
+- 📈 **学习统计**：自动统计学习时长（区分新题 / 错题）+ 日历热力图
+- 🧩 **自定义题库**：把自己的题从**截图 / Word / PDF** 导入进来刷
+- 🎨 **个性化**：浅色 / 深色主题、字号、每轮做题数、界面语言
+- 🔁 **云端同步**：登录后进度 / 错题 / 收藏跨设备同步
 
-## 登录与云同步（部署者必读）
+## 🚀 30 秒上手
 
-不登录也能刷题，数据存在浏览器本地。**登录后**，进度 / 错题 / 收藏会同步到云端，可跨设备继续。
+1. 打开 👉 **<https://aslan1113.github.io/>**
+2. 首页选一个题型（如「言语理解与表达」「数量关系」），点进去就能开始刷
+3. 选答案 → 立刻出对错 → 点「查看解析」看逐项讲解
+4. 做错的题会自动进「错题本」，之后可以专门重做、逐个消灭
+5. 想换主题 / 改字号 / 调每轮题量 / 开关 AI 解析，进「设置」页
+6. 手机、平板、电脑都能用；不登录时进度保存在本机浏览器
 
-> ⚠️ 本站原来的后端 Supabase 挂在 Meoo 域名下，而 Meoo 网关做了来源白名单（只认 `https://zy5w0w3lmnir.meoo.zone`），
-> 直接换域名后登录会报 CORS / 403。
->
-> 解决办法：加一个**极小的转发代理**（`proxy-worker.js`，已部署为 Cloudflare Pages Function
-> `https://xingce-supabase-proxy.pages.dev`），把请求转发给 Supabase 并把 `Origin` 伪装成白名单域名。
-> 站点里写死的 Supabase 地址已替换为该代理地址，登录 / 注册 / 云同步即可正常工作。
->
-> 代理源码见 [proxy-worker.js](proxy-worker.js)，重新部署方式见文件顶部注释。
+> 不需要注册就能刷。注册登录后，进度 / 收藏 / 错题会同步到云端，换设备也能接着做。
 
+## ❓ 常见问题
 
-## 常见问题
+- **注册 / 登录报错？** 请使用本站地址 <https://aslan1113.github.io/>（不要再用旧的 Meoo 域名）。原后端做了域名白名单，本站已通过一个极小的转发代理解决，正常情况下登录 / 注册 / 云同步均可正常使用。
+- **注册时提示「积分额度已达上限」？** 见下方「关于积分额度与后端」一节，通常稍后再试即可。
+- **不登录能用吗？** 可以，题面 / 选项等题库数据内置在页面里，不登录也能刷全部题目、判分、记错题。登录只是为了把数据同步到云端。
+- **手机上怎么更好用？** 浏览器菜单里选「添加到主屏幕」，就能像 App 一样一键打开。
 
-- **注册/登录报错？** 请直接访问 <https://aslan1113.github.io/> 使用（不要用旧的 Meoo 域名）。原后端网关做了域名白名单，站点已通过转发代理（`proxy-worker.js`）解决。
-- **注册时提示「积分额度已达上限」？** 这是原后端（Meoo 托管）当日用于发送确认邮件的免费额度用完，**稍后再试即可**；已有账号登录、游客刷题都不受影响。
-- **不登录能用吗？** 可以，题库完全离线内置，不登录也能刷全部题目。登录只是为了把进度/错题/收藏同步到云端、换设备继续。
+## ⚠️ 关于「积分额度」与后端（重要）
 
-## 技术栈
+本站**前端是纯静态的**（部署在 GitHub Pages，免费），但**后端不是自建的**：复用了原作者在 [Meoo](https://meoo.zone) 平台上的 Supabase 实例（数据库 + 登录 + AI 函数）。
 
-- 前端：React + Vite 构建的单页应用（SPA）
-- 后端：Supabase（登录 / 云端同步）
+因此，下面这些**需要联网**的功能会消耗该 Meoo 账号的平台积分：
+
+| 功能 | 走的后端 | 消耗额度 |
+|---|---|---|
+| 注册（发送确认邮件） | Meoo 登录服务 | 会 |
+| 登录、云同步（进度 / 错题 / 收藏） | Meoo 数据库 | 会 |
+| 逐项解析 / 题面翻译（云端缓存读写） | Meoo 数据库 | 会 |
+| AI 答疑 | Meoo AI 函数 | 会 |
+| 自定义题库识别（截图 / Word / PDF） | Meoo AI 函数 | 会 |
+| 只在本地刷题、判分、看内置内容 | 无 | 不会 |
+
+当免费额度用尽时，典型表现是：**注册返回「积分额度已达上限」**，或 AI 答疑 / 逐项解析暂时不可用。
+
+处理方式：
+
+1. 稍等一段时间再试（额度会恢复）；
+2. 或由项目作者登录 Meoo 后台查看额度、按需升级；
+3. 也可以在 Meoo 后台**关闭「邮箱确认」**，这样注册不发邮件、更省额度、注册也更快。
+
+> 一句话：**刷题本身不花钱；「注册 + AI + 云端同步」这部分是在花作者的 Meoo 积分。**
+
+## 🧩 技术栈
+
+- 前端：React 18 + Vite 构建的单页应用（SPA），产物为纯静态文件
+- 后端：Supabase（登录 / Postgres 数据库 / AI 函数）
+- AI：后端两个函数（文本答疑、图片识别），默认 qwen 系模型
+- 转发：Cloudflare Pages Function（proxy-worker.js）解决原后端域名白名单
 - 托管：GitHub Pages（纯静态，无需服务器）
 
-## 更新日志
+## 📁 目录结构
+
+```
+.
+├── index.html              # SPA 入口
+├── 404.html                # 让 /login、/practice/xxx 等深层链接刷新可用
+├── assets/                 # 构建产物（JS / CSS / 图片）
+├── docs/screenshots/       # 界面截图
+├── docs/宣传文案-小红书.md  # 可直接复制的推广文案
+├── proxy-worker.js         # 后端转发代理（Cloudflare Pages Function 源码）
+├── CHANGELOG.md            # 更新日志
+└── README.md
+```
+
+## 🛠 本地运行 / 自己部署
+
+仓库里是**已构建好的静态产物**，不需要装 Node 也能跑：
+
+- 本地：任意静态服务器打开根目录即可（例如 `python -m http.server`）。
+- 部署到 GitHub Pages：
+  1. 仓库命名为 `<用户名>.github.io`（站点发布在根目录，资源绝对路径才能正常加载）
+  2. **Settings → Pages → Build and deployment → Source** 选 **Deploy from a branch**
+  3. Branch 选 `main`、目录选 `/ (root)`，保存，等 1～2 分钟
+
+### 关于登录 / 云同步（部署者必读）
+
+原后端的 Supabase 挂在 Meoo 域名下，Meoo 网关做了**来源白名单**（只认原站点域名），换域名后登录会 CORS / 403。
+
+解决办法：加一个**极小的转发代理**（[proxy-worker.js](proxy-worker.js)，已部署为 Cloudflare Pages Function `https://xingce-supabase-proxy.pages.dev`），把请求转发给后端并把 `Origin` 伪装成白名单域名。站点里写死的后端地址已替换为该代理地址。重新部署方式见该文件顶部注释。
+
+## 📝 更新日志
 
 见 [CHANGELOG.md](CHANGELOG.md)。
 
-## 部署说明
+## 🌍 English
 
-本仓库是**已构建好的静态产物**，直接把文件发布到 GitHub Pages 即可：
+**Xingce Shuati** — a free, mobile-friendly web app for practicing Chinese aptitude-test (行测) questions for campus recruitment and civil-service exams. Categorized drills, per-option explanations, AI tutor, mistake book, bookmarks, study stats, and custom question import (image / Word / PDF). No sign-up required.
 
-1. 仓库命名为 `Aslan1113.github.io`（站点会发布在根目录，资源绝对路径才能正常工作）
-2. 打开 **Settings → Pages → Build and deployment → Source** 选 **Deploy from a branch**
-3. Branch 选 `main`、目录选 `/ (root)`，保存
-4. 等 1～2 分钟，访问 `https://Aslan1113.github.io/`
+Try it: <https://aslan1113.github.io/>
 
-仓库中的 `404.html` 用于让 `/practice/language`、`/login` 等深层链接在刷新时也能正常打开。
+## ⚠️ 说明与免责
 
-## 说明与免责
-
-- 题库来自网络**公开**的行测真题 / 回忆版，仅供学习交流，如涉版权请联系。
-- 后端使用 Supabase 服务，登录与云同步依赖于网络。
+- 题库来自网络**公开**的行测真题 / 回忆版，仅供学习交流，如涉版权请联系删除。
+- 登录与云同步依赖第三方后端服务，偶尔受网络或平台额度影响。
+- 本项目为个人学习作品，与任何考试机构无隶属关系。
 
 ## License
 
 [MIT](LICENSE)
+
+---
+
+<p align="center">
+  <b>如果这个工具帮到了你，欢迎点个 ⭐ Star，让更多备考的同学看到 🙌</b><br>
+  <sub>也欢迎提 Issue 反馈问题或想要的题型。</sub>
+</p>
