@@ -29,15 +29,12 @@
 
 ## 界面预览
 
-<p>
-<img src="docs/screenshots/live-home-desktop.png" width="440" alt="电脑端首页">
-<img src="docs/screenshots/live-home-mobile.png" width="130" alt="手机端首页">
-</p>
+<img src="docs/screenshots/live-home-desktop.png" width="720" alt="电脑端首页">
 
 <p>
-<img src="docs/screenshots/mobile-01.jpg" width="150" alt="手机端刷题">
-<img src="docs/screenshots/mobile-04.jpg" width="150" alt="手机端解析">
-<img src="docs/screenshots/desktop-02.png" width="440" alt="电脑端刷题">
+<img src="docs/screenshots/live-home-mobile.png" width="170" alt="手机端首页">
+<img src="docs/screenshots/mobile-01.jpg" width="170" alt="手机端刷题">
+<img src="docs/screenshots/mobile-04.jpg" width="170" alt="手机端解析">
 </p>
 
 > 更多截图见 [docs/screenshots](docs/screenshots)。
